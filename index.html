@@ -1,12 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AR Car</title>
+  <style>
+    body {
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f0f0f0;
+    }
+    img {
+      cursor: pointer;
+    }
+  </style>
 </head>
-
-<body style="margin:0; display:flex; justify-content:center; align-items:center; height:100vh;">
+<body>
+  <!-- Tap this image to open AR -->
   <a rel="ar" href="suprra.usdz">
-    <img src="supra.png" style="width:200px;">
+    <img src="https://developer.apple.com/augmented-reality/quick-look/models/teapot/teapot.png" width="200" alt="Tap to view in AR">
   </a>
 </body>
 </html>
